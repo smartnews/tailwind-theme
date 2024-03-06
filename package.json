@@ -1,15 +1,11 @@
 {
-  "name": "@samrobbins/tailwind-col-count",
+  "name": "@smartnews/tailwind-theme",
   "version": "1.0.2",
-  "description": "A Tailwind CSS plugin to add the column-count CSS property to Tailwind CSS.",
+  "description": "A plugin to add SmartNews design themes (color, etc.) to Tailwind CSS.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/samrobbins85/tailwind-col-count"
-  },
-  "author": "Sam Robbins",
+  "author": "Michelle Lei <meisiu.lei@smartnews.com>",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^3.3.3"
   }
 }
