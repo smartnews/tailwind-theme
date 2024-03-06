@@ -1,11 +1,8 @@
 {
   "name": "@smartnews/tailwind-theme",
-  "version": "1.0.2",
-  "description": "A plugin to add SmartNews design themes (color, etc.) to Tailwind CSS.",
+  "version": "1.0.0",
+  "description": "A preset to add SmartNews design themes (color, etc.) to Tailwind CSS.",
   "main": "index.js",
   "author": "Michelle Lei <meisiu.lei@smartnews.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  }
+  "license": "UNLICENSED"
 }
