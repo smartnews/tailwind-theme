@@ -1,3 +1,7 @@
-# Tailwind Column Count
+# Tailwind Plugin for SmartNews Themes 
 
-This is a Tailwind CSS plugin to add the [column-count](https://developer.mozilla.org/en-US/docs/Web/CSS/column-count) CSS property to Tailwind CSS.
+This is a Tailwind CSS plugin that adds SmartNews themes according to the SmartNews Component Library for the use in web projects.
+
+Slack Channel: #jp-design-system
+
+[Figma](https://www.figma.com/file/KoTdwWeASL6faplkF753yn/Beyond-%E2%80%93-Component-Library?type=design&node-id=1%3A22&mode=design&t=3R41APpFXFdnTlU6-1)
