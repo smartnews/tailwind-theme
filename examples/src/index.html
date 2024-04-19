@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="p-4">
-    <h1 class="font-bold text-4xl">Colors Variables</h1>
+  <body class="p-4 surface-primary text-primary">
+    <h1 class="font-bold text-4xl w-full text-center">JP Design System</h1>
+    <h2 class="font-bold text-3xl">Colors Variables</h2>
     <div class="flex flex-row space-x-3 mb-3">
       <div>
-        <h2>Gray</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Gray</h3>
+        <table class="table-auto border rounded mt-2 separator-or-border">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -58,8 +59,8 @@
         </table>
       </div>
       <div>
-        <h2>Purple</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Purple</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -103,8 +104,8 @@
         </table>
       </div>
       <div>
-        <h2>Red</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Red</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -152,8 +153,8 @@
         </table>
       </div>
       <div>
-        <h2>Orange</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Orange</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -199,8 +200,8 @@
     </div>
     <div class="flex flex-row space-x-3 mb-3">
       <div>
-        <h2>Green</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Green</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -244,8 +245,8 @@
         </table>
       </div>
       <div>
-        <h2>Blue</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Blue</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -291,8 +292,8 @@
     </div>
     <div class="flex flex-row space-x-3 mb-3">
       <div>
-        <h2>Teal</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Teal</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -336,8 +337,8 @@
         </table>
       </div>
       <div>
-        <h2>Yellow</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>Yellow</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -383,8 +384,8 @@
     </div>
     <div class="flex flex-row space-x-3 mb-3">
       <div>
-        <h2>TGray</h2>
-        <table class="table-auto border border-black rounded mt-2">
+        <h3>TGray</h3>
+        <table class="table-auto border separator-or-border rounded mt-2">
           <tr>
             <th>Name</th>
             <th>Fill</th>
@@ -428,5 +429,184 @@
         </table>
       </div>
     </div>
+    <h2 class="font-bold text-3xl">
+      Colors Tokens
+      <p class="inline-block text-sm font-normal text-warning">
+        (Toggle prefers-color-scheme to see the effects in both light/dark
+        modes.)
+      </p>
+    </h2>
+
+    <h3 class="mt-3 text-2xl">Text Styles</h3>
+    <div class="text-lg">
+      <span class="text-primary">text-primary</span>
+      <span class="text-secondary">text-secondary</span>
+      <span class="text-secondary-transparent">text-secondary-transparent</span>
+      <span class="text-tertiary">text-tertiary</span>
+      <span class="text-tertiary-transparent">text-tertiary-transparent</span>
+    </div>
+    <div class="text-lg">
+      <span class="text-disabled">text-disabled</span>
+      <span class="text-disabled-transparent">text-disabled-transparent</span>
+      <span class="text-link">text-link</span>
+      <span class="text-warning">text-warning</span>
+    </div>
+    <h3 class="mt-3 text-2xl">Surfaces</h3>
+    <table class="table-auto border rounded mt-2 separator-or-border">
+      <tr>
+        <th>Name</th>
+        <th>
+          Fill
+          <span class="font-normal font-sm"
+            >(border color in the "separator-or-border" token)</span
+          >
+        </th>
+      </tr>
+      <tr>
+        <td>surface-primary</td>
+        <td><div class="w-4 h-4 rounded surface-primary mx-2 border"></div></td>
+      </tr>
+      <tr>
+        <td>surface-secondary</td>
+        <td>
+          <div class="w-4 h-4 rounded surface-secondary mx-2 border"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>surface-tertiary</td>
+        <td>
+          <div class="w-4 h-4 rounded surface-tertiary mx-2 border"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>surface-inverted</td>
+        <td>
+          <div class="w-4 h-4 rounded surface-inverted mx-2 border"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>background-elevation</td>
+        <td>
+          <div class="w-4 h-4 rounded background-elevation mx-2 border"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>separator-or-border</td>
+        <td>
+          <div
+            class="w-4 h-4 rounded mx-2 separator-or-border flex justify-center items-center text-warning"
+          >
+            X
+          </div>
+        </td>
+      </tr>
+    </table>
+    <h3 class="mt-3 text-2xl">Icon</h3>
+    <table class="table-auto border rounded mt-2 separator-or-border">
+      <tr>
+        <th>Name</th>
+        <th>Fill</th>
+      </tr>
+      <tr>
+        <td>icon-primary</td>
+        <td>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="16px"
+            width="16px"
+            version="1.1"
+            id="Capa_1"
+            viewBox="0 0 47.94 47.94"
+            xml:space="preserve"
+            class="icon-primary mx-2"
+          >
+            <path
+              d="M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757  c2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042  c0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685  c-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528  c-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956  C22.602,0.567,25.338,0.567,26.285,2.486z"
+            />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td>icon-secondary</td>
+        <td>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="16px"
+            width="16px"
+            version="1.1"
+            id="Capa_1"
+            viewBox="0 0 47.94 47.94"
+            xml:space="preserve"
+            class="icon-secondary mx-2"
+          >
+            <path
+              d="M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757  c2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042  c0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685  c-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528  c-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956  C22.602,0.567,25.338,0.567,26.285,2.486z"
+            />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td>icon-tertiary</td>
+        <td>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="16px"
+            width="16px"
+            version="1.1"
+            id="Capa_1"
+            viewBox="0 0 47.94 47.94"
+            xml:space="preserve"
+            class="icon-tertiary mx-2"
+          >
+            <path
+              d="M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757  c2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042  c0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685  c-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528  c-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956  C22.602,0.567,25.338,0.567,26.285,2.486z"
+            />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td>icon-success</td>
+        <td>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="16px"
+            width="16px"
+            version="1.1"
+            id="Capa_1"
+            viewBox="0 0 47.94 47.94"
+            xml:space="preserve"
+            class="icon-success mx-2"
+          >
+            <path
+              d="M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757  c2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042  c0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685  c-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528  c-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956  C22.602,0.567,25.338,0.567,26.285,2.486z"
+            />
+          </svg>
+        </td>
+      </tr>
+      <tr>
+        <td>icon-active</td>
+        <td>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            height="16px"
+            width="16px"
+            version="1.1"
+            id="Capa_1"
+            viewBox="0 0 47.94 47.94"
+            xml:space="preserve"
+            class="icon-active mx-2"
+          >
+            <path
+              d="M26.285,2.486l5.407,10.956c0.376,0.762,1.103,1.29,1.944,1.412l12.091,1.757  c2.118,0.308,2.963,2.91,1.431,4.403l-8.749,8.528c-0.608,0.593-0.886,1.448-0.742,2.285l2.065,12.042  c0.362,2.109-1.852,3.717-3.746,2.722l-10.814-5.685c-0.752-0.395-1.651-0.395-2.403,0l-10.814,5.685  c-1.894,0.996-4.108-0.613-3.746-2.722l2.065-12.042c0.144-0.837-0.134-1.692-0.742-2.285l-8.749-8.528  c-1.532-1.494-0.687-4.096,1.431-4.403l12.091-1.757c0.841-0.122,1.568-0.65,1.944-1.412l5.407-10.956  C22.602,0.567,25.338,0.567,26.285,2.486z"
+            />
+          </svg>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
